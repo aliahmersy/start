@@ -1,0 +1,39 @@
+{
+  "name": "Music Bot",
+  "description": "روبوت مفتوح المصدر لتشغيل الأغاني في الدردشة الصوتية الجماعية في Telegram. مدعوم من سورس استاثون .",
+  "logo": "https://graph.org/file/a7a4ba8ac40b7f0bfb46f.jpg",
+  "keywords": ["music", "voicechat", "telegram"],
+  "repository": "https://github.com/ImJanindu/GroupMusicBot",
+  "stack": "container",
+  "env": {
+    "SESSION_NAME": {
+      "description": "Pyrogram session string"
+    },
+    "BOT_TOKEN": {
+      "description": "توكن بوتك"
+    },
+    "START_IMG": {
+      "description": "Telegraph Link Of An Image",
+      "required": false
+    },
+    "API_ID": {
+      "description": "اب ايدي الخاص بحسابك "
+    },
+    "API_HASH": {
+      "description": "اب هاش الخاص بحسابك"
+    },
+    "SUDO_USERS": {
+      "description": "يوزر حساب المساعد بدون@."
+    },
+    "ARQ_API_KEY": {
+      "description": "مفتاح جيبه منهلبوت @ArqRoBot"
+    },
+    "BOT_USERNAME": {
+      "description": "يورز بوتك بدون  @."
+    },
+    "DURATION_LIMIT": {
+      "description": "Max audio duration limit for downloads (minutes).",
+      "value": "10"
+    }
+  }
+}
